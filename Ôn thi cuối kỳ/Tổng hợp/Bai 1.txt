@@ -1,0 +1,38 @@
+những gì cần ghi
+1. Một số khái niệm'
+- Hai trạng thái dữ liệu:
++ Transmission state (truyền)
++ Storage state (lưu trữ)
+
+-  Bốn yêu cầu của dữ liệu:
++ Confidentiality (bảo mật)
++ Integrity (toàn vẹn)
++ Non-repudiation (không thể từ chối)
++ Availability (sẵn sàng)
+
+2. Các kỹ thuật tần công phổ biến:
+- Eavesdropping (nghe trộm)
+- Cryptanalysis (phá mã)
+- Password pilfering (ăn cắp mật khẩu)
+- Identity Spoofing:
+1)	Man-in-the-middle attacks. 
+2)	Message replays attacks. 
+3)	Network spoofing attacks. 
++ SYN flooding: 
++ TCP hijacking: 
++ ARP spoofing (ARP poisoning): 
+4)	Software explotation attacks.
+
+- Intrusion (Xâm nhập bất hợp pháp)
+- Denial of Service Attacks (DoS): 
+- Distributed DoS (DdoS): dùng nhiều máy tính bị kiểm soát(bị nhiễm virus, trojan) để tấn công vào máy tính nạn nhân cùng lúc
+- Malicious Software (phần mềm độc hại)
+
+
+4. Mô hình bảo mật cơ bản
+- Bao gồm 4 thành phần:
++ Hệ thống mã hóa (Cryptosystem): sử dụng mật mã và các giao thức bảo mật (giao thức mã hóa, giao thứ chức thực, giao thức quản lý khóa) để bảo vệ dữ liệu.
++ Tường lửa (Firewall): gói phần mềm cài trên máy tính hoặc thiết bị mạng để kiểm tra các gói tin đi vào và đi ra trên mạng.
++ Hệ thống phần mềm chống độc hại (Anti-Malicious System software – AMS software): quét thư mục, hệ thống, tập tin, registry => Nhận diện, cách ly hoặc xóa các mã độc hại.
++ Hệ thống tìm kiếm xâm nhập (Intrusion Detection System – IDS): giám sát việc đăng nhập và hành vi của người dùng, phân tích file log để nhận diện và đưa ra cảnh báo khi phát hiện có sự xâm nhập.
+
